@@ -1,0 +1,84 @@
+body {
+  font-family: 'Open Sans', montserrat;
+  font-weight: 300; /* if you want the light version */
+  background-color: #32DE8A;
+  color: #935FA7;
+
+  ;
+}
+
+h1 {
+  color: #95F9E3;
+  font-size: 30px;
+  line-height: 2;
+  letter-spacing = 20px;
+  text-align:center;
+  }
+
+h3, h4 {
+  letter-spacing = 10px;
+  color: #69EBD0;
+  line-height: 1.5;
+  text-align:center;
+  }
+
+.self-description{
+  letter-spacing = 15px;
+  color: #935FA7;
+  line-height: 2;
+  font-weight: 500;
+  }
+
+  a {
+    color: #95F9E3;
+    text-decoration: none;
+    padding: 20px;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: purple;
+  }
+
+.img-size { width: 400px;
+            height: (1.618*400)px;
+          }
+
+#profile_pic {
+  width: 170px;
+  border-radius: 300px;
+}
+.text-center{
+  text-align:center;
+}
+
+.container {  /* background, border, border-radius and box-shadow */
+  margin: 0 auto;
+  background-color: yellow;
+  box-shadow: 5px 5px 2px blue;
+  border-radius: 40px;
+  border: 3px solid  green;
+  width: 700px;
+}
+
+.card {
+  display:center;
+  padding: 30px;
+  border-radius: 40px;
+  width: 500px;
+  margin: 20;
+  background-color: white;
+  box-shadow: 5px 5px 2px blue;
+  border: 3px solid  green;
+}
+
+.list-inline > li  {
+  display: inline-block;
+  }
+
+  .list-inline {
+    padding-left: 0;
+  }
+  .profile {
+    background-color: yellow;
+    }
